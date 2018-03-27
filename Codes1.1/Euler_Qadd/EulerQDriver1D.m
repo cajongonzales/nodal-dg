@@ -22,4 +22,4 @@ FinalTime = 0.2;
 
 % Solve Problem
 [rho,rhou,Ener] = EulerQ1D(rho,rhou,Ener,FinalTime);
-post_process(p,rho,rhou,Ener);
+post_process(rho,rhou,Ener);
